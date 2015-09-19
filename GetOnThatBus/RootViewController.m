@@ -169,9 +169,6 @@
     [tableView deselectRowAtIndexPath:indexPath animated:false];
 }
 
--(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
-    [self performSegueWithIdentifier:@"tableViewSegue" sender:nil];
-}
 
 #pragma mark - navigation
 #pragma mark -
